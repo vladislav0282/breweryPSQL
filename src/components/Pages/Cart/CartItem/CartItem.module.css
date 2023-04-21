@@ -1,0 +1,91 @@
+.cartImg {
+  width: 100px;
+  height: 100px;
+}
+
+.hrB {
+  margin-left: 250px;
+  margin-right: 250px;
+  opacity: 0.3;
+}
+
+.wr {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.itemInput {
+  width: auto;
+  margin-left: 24px;
+  margin-right: 16px;
+  transform: scale(1.8);
+}
+
+.cartName {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.itemBox {
+  width: 400px;
+}
+
+.itemBoxInput {
+  width: 50px;
+}
+
+.itemBoxImg {
+  width: 110px;
+}
+
+.itemBoxPrice {
+  display: flex;
+  width: 250px;
+  gap: 20px;
+}
+
+.itemBoxBtn {
+  width: 100px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.price span {
+  text-decoration: line-through;
+}
+
+.cartBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.cartBtn:hover {
+  color: white;
+}
+
+.textCount {
+  font-size: 20px;
+}
+
+.itemBoxA {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

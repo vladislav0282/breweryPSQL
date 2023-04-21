@@ -1,0 +1,61 @@
+.arrowLeft {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.arrowRight {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sliderContainer {
+  position: relative;
+}
+
+.img {
+  width: 750px;
+  height: 550px;
+  position: relative;
+}
+
+.img2 {
+  position: absolute;
+  width: 350px;
+  top: 220px;
+  right: -10px;
+}
+
+.slide {
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.slideActive {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.cardBeerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1300px;
+}
+
+.h3 {
+  color: white;
+  padding: 20px;
+  margin: -10px;
+  width: 500px;
+}

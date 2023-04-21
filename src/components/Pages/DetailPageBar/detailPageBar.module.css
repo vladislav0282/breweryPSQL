@@ -1,0 +1,286 @@
+.wr {
+  background-color: #170200;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 1440px;
+  min-height: 943px;
+  margin-top: 10px;
+}
+
+.cardImage {
+  display: flex;
+  width: 100%;
+  height: 748px;
+}
+
+.image1 {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.4));
+  width: 1036.8px;
+  height: 692px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 56px;
+}
+
+.imageWrRight {
+  position: relative;
+  width: 363.2px;
+  height: 748px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 21.6px;
+}
+
+.image2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.4));
+  width: 363.2px;
+  height: 363.2px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.image3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.4));
+  width: 299.2px;
+  height: 299.2px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.cardBody {
+  position: relative;
+  min-height: 195px;
+}
+
+.cardName {
+  position: absolute;
+  top: -32px;
+  left: 70px;
+  max-width: 900px;
+  background-color: rgba(10, 4, 6, 0.4);
+}
+
+.cardName h3 {
+  color: white;
+  font-family: Knockout\50 A, Knockout\50 B, Impact, Haettenschweiler, Franklin Gothic Bold,
+    Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans-serif;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 5.632px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.cardDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 656px;
+  height: 100%;
+  background-color: #170200;
+  bottom: 0;
+  right: 0;
+  padding-left: 64px;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+.cardDescription p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-family: Gotham A, Gotham B, sans-serif;
+}
+
+.icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.icon:hover {
+  color: rgb(215, 114, 114);
+}
+
+.iconsWr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(165deg, #ffd25e 16.44%, #b59646 63.42%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: Tahoma, Arial, Verdana, sans-serif;
+}
+
+.rating {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rating i {
+  font-size: 18px;
+  align-self: start;
+}
+
+.rating p {
+  font-size: 20px;
+}
+
+.descriptionWr {
+  display: flex;
+}
+
+.timeWorking p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-family: Gotham A, Gotham B, sans-serif;
+}
+
+.timeWorking {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 190px;
+}
+
+.aboutMeBtnBottom {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.aboutMeBtnBottom:hover {
+  color: white;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.textDelete {
+  --tw-bg-opacity: 1;
+  color: rgb(185 150 91 / var(--tw-bg-opacity));
+  font-size: 22px;
+}
+
+.btnDeleteBox {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.btnDelete {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.formikWr {
+  width: 100%;
+  max-height: 490px;
+}
+
+.form {
+  color: #2c2c2c;
+  padding: 10px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  min-height: 450px;
+}
+
+.form label {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  font-family: Gotham A, Gotham B, sans-serif;
+}
+
+.buttonModalWr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.dataPicker {
+  width: 70%;
+  height: 24px;
+}
+
+.formInputs {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form p {
+  color: #ec3939;
+  margin: 0;
+}

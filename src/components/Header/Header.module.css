@@ -1,0 +1,73 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.headerLogo {
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  transition: 0.5s ease;
+}
+
+.headerLogoScrolled {
+  height: 70px;
+  padding-top: 10px;
+  transition: 0.5s ease;
+}
+
+.burgerBtn {
+  border: none;
+  background: transparent;
+  font-size: 40px;
+  color: white;
+  height: 100%;
+}
+
+.scrolledHeader {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #170200b4;
+  transition: 0.5s ease-out;
+}
+
+.scrollHeader {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: transparent;
+}
+
+.btnCart {
+  font-size: 34px;
+  background: transparent;
+  color: white;
+  border: none;
+  position: relative;
+}
+
+.btnBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.activeLink {
+  opacity: 0.5;
+}
+
+.cartItemCount {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  background: transparent;
+  color: white;
+  padding: 2px 5px;
+  font-size: 22px;
+}

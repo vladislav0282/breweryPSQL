@@ -1,0 +1,333 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wr {
+  width: auto;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+}
+
+.headerUser {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  position: relative;
+  height: 70px;
+}
+
+.textTitle {
+  color: white;
+  font-size: 30px;
+  margin: 14px;
+}
+
+.textTitleRight {
+  color: white;
+  font-size: 20px;
+}
+
+.headerUserRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  background-color: #170200;
+  right: 50px;
+  top: -20px;
+  padding: 10px;
+  width: auto;
+}
+
+.headerUserLeft {
+  position: absolute;
+  background-color: #170200;
+  padding: 10px;
+  width: auto;
+  top: -20px;
+  left: 50px;
+}
+
+.avatarMini {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  border-radius: 30px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 100px;
+}
+
+.userInfoLeft {
+  background: transparent;
+  padding: 20px;
+  width: 450px;
+  height: 750px;
+  margin-top: 10px;
+}
+
+.avatarFull {
+  height: 400px;
+  margin-top: 30px;
+}
+
+.aboutMeTitle {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: white;
+  margin-top: 50px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.aboutMe {
+  color: white;
+}
+
+.aboutMe span {
+  font-size: 20px;
+  margin-left: 10px;
+  font-style: italic;
+  color: white;
+}
+
+.btnAvatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.avatarBox {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+}
+
+.aboutMeBtn:hover {
+  color: white;
+}
+
+.aboutMeBtnBottom {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  position: absolute;
+  right: 10px;
+  bottom: -30px;
+}
+
+.aboutMeBtnBottom:hover {
+  color: white;
+}
+
+.userInfoRight {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.userInfoRightTop {
+  height: 385px;
+  width: 500px;
+  background: transparent;
+}
+
+.userInfoRightBottom {
+  height: 385px;
+  background: transparent;
+}
+
+.userInfoRightBottom hr {
+  margin-bottom: 20px;
+}
+
+.userInfoRightTitle {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: white;
+  margin: 0;
+}
+
+.userInfoNoBars {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: white;
+  margin: 0;
+}
+
+.userInfoGoToHomePage {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: white;
+  margin: 0;
+}
+
+.userInfoGoToHomePage:hover {
+  --tw-bg-opacity: 1;
+  color: rgb(185 150 91 / var(--tw-bg-opacity));
+}
+
+.userInfoRightTitleDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.barLink button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  position: relative;
+}
+
+.barLink {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.text {
+  position: relative;
+  color: white;
+}
+
+.bars_button {
+  position: relative;
+}
+
+.bars_link {
+  position: relative;
+}
+
+.but_link {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+
+.barLink button:hover {
+  color: white;
+}
+
+.btnTrash {
+  color: white;
+  font-size: 26px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.btnDelete {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.btnDeleteBox {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.modal {
+  height: 150px;
+  width: 400px;
+}
+
+.textDelete {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btnDelete:hover {
+  color: white;
+}
+
+.textDelete span {
+  --tw-bg-opacity: 1;
+  color: rgb(185 150 91 / var(--tw-bg-opacity));
+  font-size: 22px;
+}

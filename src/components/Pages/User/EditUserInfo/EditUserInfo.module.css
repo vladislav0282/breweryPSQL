@@ -1,0 +1,55 @@
+.wr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorMessage {
+  display: flex;
+  opacity: 0.5;
+  font-size: 16px;
+  height: 30px;
+}
+
+.error {
+  font-weight: 500;
+  color: white;
+  margin-top: 6px;
+  height: 30px;
+}
+
+.btn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px;
+  margin-top: 6px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.inputBox > label {
+  color: white;
+  text-shadow: none;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 350px;
+}

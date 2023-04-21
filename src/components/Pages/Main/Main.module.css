@@ -1,0 +1,268 @@
+.main {
+  height: auto;
+  min-height: 100vh;
+}
+
+.fullScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fullScreenVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fullScreenBody {
+  padding: 50px 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0), 20%, #170200);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.fullScreenTitle {
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 20px;
+  margin: 0 0 30px 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fullScreenText {
+  position: absolute;
+  bottom: 170px;
+  left: 100px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Poppins', sans-serif;
+}
+
+.span {
+  font-size: 66px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 160px;
+  margin-top: 60px;
+}
+
+.sliderСontent {
+  position: relative;
+}
+
+.headingSlider {
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  top: 52px;
+  right: -67px;
+  font-size: 30px;
+  color: white;
+  background-color: #170200;
+}
+
+.picnicContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.picnicHeaderH1 {
+  margin-left: 100px;
+}
+
+.picnicHeaderH2 {
+  position: absolute;
+  top: -52px;
+  right: 0px;
+  padding: 20px;
+  padding-right: 0;
+  background-color: #170200;
+  color: white;
+  font-size: 30px;
+}
+
+.picnicHeaderH3 {
+  margin-left: 55px;
+}
+
+.picnicContantText {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 30px;
+}
+
+.picnicContant {
+  display: flex;
+  justify-content: center;
+  width: 1300px;
+  position: relative;
+}
+
+.picnicImgLogo {
+  width: 100%;
+  background-color: #00000051;
+}
+
+.picnicContantParagraph {
+  width: 630px;
+}
+
+.hrMain {
+  width: 1100px;
+}
+
+.solodContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.solodHeaderH1 {
+  margin-left: 70px;
+  font-size: 55px;
+  width: 640px;
+}
+
+.solodHeaderH2 {
+  position: absolute;
+  top: -52px;
+  left: 0px;
+  padding: 20px;
+  padding-left: 0;
+  background-color: #170200;
+  color: white;
+  font-size: 30px;
+}
+
+.solodHeaderH3 {
+  margin-left: 280px;
+}
+
+.solodContantText {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  font-size: 30px;
+}
+
+.solodContant {
+  display: flex;
+  justify-content: center;
+  width: 1300px;
+  position: relative;
+}
+
+.solodImgLogo {
+  width: 100%;
+  background-color: #00000051;
+}
+
+.solodContantParagraph {
+  width: 650px;
+  margin-right: 10px;
+  position: absolute;
+  top: 177px;
+  right: 90px;
+  padding: 20.9px;
+  background-color: #170200;
+}
+
+.solodLink {
+  position: absolute;
+  top: 320px;
+  right: 50px;
+}
+
+.solodLinkA a {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.solodLinkA a:hover {
+  color: white;
+}
+
+.signUpInMainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.signUpInMainContant {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px;
+  text-align: center;
+}
+
+.signUpInMainP {
+  color: white;
+  font-size: 25px;
+}
+
+.signUpInMainLinkA a {
+  padding: 25px;
+  font-size: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.signUpInMainLinkA a:hover {
+  color: white;
+}
+
+.imgHoops1 {
+  width: 100px;
+}
+
+.imgHoops2 {
+  width: 100px;
+}

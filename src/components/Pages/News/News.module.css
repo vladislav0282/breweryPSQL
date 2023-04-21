@@ -1,0 +1,95 @@
+.newsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+
+.changeImgContantainer {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    position: relative;
+}
+
+.changeImgContant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.changeImg {
+    width: 500px;
+}
+
+.changeImgHeader {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 334px;
+    left: 890px;
+    padding: 10px;
+    background-color: #170200;
+}
+
+.changeImgDiscription {
+    color: white;
+    position: absolute;
+    width: 300px;
+    top: 130px;
+    left: 220px;
+    padding: 10px;
+    background-color: #170200;
+}
+
+.newsHeader {
+    text-align: center;
+}
+
+.newsHeader {
+    color: white;
+    font-size: 50px;
+}
+
+.newsCardsContantainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    color: white;
+}
+
+.newsCards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.newsCardsContent {
+    margin: 60px;
+    width: 400px;
+    position: relative;
+}
+
+.newsCardsH1 {
+    position: absolute;
+    top: -33px;
+    left: -14px;
+    background-color: #170200;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.newsCardsImg {
+    width: 400px;
+}
+
+.newsCardsDiscription {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hrNewsCards {
+    width: 1300px;
+    margin-top: 60px;
+}

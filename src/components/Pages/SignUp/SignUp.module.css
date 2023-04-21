@@ -1,0 +1,106 @@
+.wr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.imageBox {
+  position: relative;
+  width: auto;
+}
+
+.title {
+  color: white;
+  font-size: 90px;
+  width: max-content;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+}
+
+.textOne {
+  color: white;
+  font-size: 40px;
+}
+
+.bgLogo {
+  background-color: #170200;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 10px;
+}
+
+.bgTextOne {
+  background-color: #170200;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  padding: 20px;
+}
+
+.bgTextTwo {
+  background-color: #170200;
+  height: auto;
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+  padding: 30px;
+  width: 550px;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  width: 500px;
+}
+
+.formSignUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.formBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(10 4 6 / var(--tw-text-opacity));
+  width: max-content;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.formBtn:hover {
+  color: white;
+}
+
+.errorText {
+  color: white;
+  font-size: 30px;
+}
+
+.errorMessage {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error a {
+  color: white;
+  font-size: 40px;
+  border: 1px solid white;
+  padding: 10px;
+}

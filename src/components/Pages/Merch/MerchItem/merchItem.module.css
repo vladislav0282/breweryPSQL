@@ -1,0 +1,139 @@
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 442.5px;
+    min-height: 513px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(55, 55, 55, 0.15);
+}
+
+.image__body {
+    position: relative;
+}
+
+.card img:hover {
+    cursor: pointer;
+}
+
+.card__image {
+    height: 362px;
+    width: 362px;
+    padding: 20px;
+}
+
+.card__body {
+    width: 100%;
+    text-align: left;
+    padding-left: 45px;
+    height: 84px;
+    position: relative;
+}
+
+.card__body p {
+    margin: 0;
+}
+
+.merchName {
+    min-height: 45px;
+    cursor: pointer;
+}
+
+.merchName p {
+    color: rgb(47, 47, 47);
+    padding: 3px 6px 4px 5px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.priceWr p {
+    color: rgb(47, 47, 47);
+    font-size: 18px;
+    font-family: 'Gotham Book';
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    padding: 3px 6px 4px 5px;
+}
+
+.priceDiscountWr {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 3px 6px 4px 5px;
+}
+
+.priceDiscountWr p:first-child {
+    color: rgb(47, 47, 47);
+    font-size: 18px;
+    font-family: 'Gotham Book';
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.priceDiscountWr p:last-child {
+    text-decoration: line-through;
+    color: rgb(168, 36, 36);
+    font-size: 18px;
+    font-family: 'Gotham Book';
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.discount {
+    width: 90px;
+    height: 24px;
+    background-color: rgba(21, 71, 52, 0.8);
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    padding: 8px 8px 8px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tag {
+    width: 76px;
+    height: 18px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding: 8px 8px 8px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag p {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+}

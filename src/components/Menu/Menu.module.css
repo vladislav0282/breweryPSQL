@@ -1,0 +1,93 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  transform: translateX(50vw);
+  transition: 1s ease;
+}
+
+.menuActive {
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transform: translateX(0);
+  transition: 1s ease;
+}
+
+.menuContent {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1;
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  margin-top: 130px;
+  gap: 20px;
+}
+
+.menuX {
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.menuList a {
+  color: black;
+  font-weight: 500;
+  letter-spacing: 6px;
+  font-size: 60px;
+  font-style: normal;
+  line-height: 100px;
+  cursor: pointer;
+  font-family: Gotham A, Gotham B, sans-serif;
+}
+
+.menuContentBlur {
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: -1;
+}
+
+.menuListA {
+  width: min-content;
+}
+
+.reg a {
+  font-size: 20px;
+}
+
+.reg {
+  align-self: flex-end;
+  margin: 10px;
+}
+
+.menuListTwo {
+  align-self: flex-end;
+  margin-right: 50px;
+}
+
+.menuListTwo a {
+  color: black;
+  cursor: pointer;
+  font-family: Gotham A, Gotham B, sans-serif;
+}

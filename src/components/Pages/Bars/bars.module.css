@@ -1,0 +1,32 @@
+.wr {
+  background-color: #170200;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mapWr {
+  display: flex;
+  justify-content: center;
+  width: 1312px;
+  height: 500px;
+  padding: 0 64px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.loader,
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.errorMessage p {
+  font-size: 24px;
+}

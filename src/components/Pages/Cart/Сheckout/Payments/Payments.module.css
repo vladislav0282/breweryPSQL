@@ -1,0 +1,84 @@
+.payments {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 375px;
+  font-size: 18px;
+}
+
+.textA {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputBoxN input {
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.inputBoxN input::placeholder,
+.inputBoxC input::placeholder,
+.inputBoxD input::placeholder {
+  opacity: 0.5;
+}
+
+.inputBoxD input {
+  width: 186px;
+  height: 40px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.inputBoxC input {
+  width: 186px;
+  height: 40px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pay {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 150 91 / var(--tw-bg-opacity));
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: black;
+  width: 408px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.pay:hover {
+  color: white;
+  background-color: black;
+}
+
+.errorMessage {
+  display: flex;
+  height: 20px;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.error {
+  margin: 0;
+}
